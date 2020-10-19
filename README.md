@@ -1,7 +1,7 @@
 **TLC Broker API Documentation**
 ----
 
-* **URL**
+* **URL / API Endpoint**
 
   `https://admin.tlc.com.au/api/create_app`
 
