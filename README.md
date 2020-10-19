@@ -54,9 +54,9 @@
   >
   > * `living_status` must be an item from [Living Status](#living-status)
   >
-  > * `amount` must be between `2000` to `50000` & `integer` type all other fields are `string`
+  > * `marital_status` must be an item from [Marital Status](#marital-status)
   >
-  > 
+  > * `amount` must be between `2000` to `50000` & `integer` type all other fields are `string`
   > 
   > And these fields are case-sensitive `Dental` & `dental` is not same.
   >
@@ -117,6 +117,13 @@
     * `Renting`
     * `Living with Parents`
     * `Boarding`
+    
+  # Marital Status
+    * `Single`
+    * `Defacto`
+    * `Married`
+    * `Divorced`
+    * `Widowed`
 
 ---
 
