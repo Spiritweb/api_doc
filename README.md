@@ -27,7 +27,7 @@
         "first_name": "Matthew",
         "last_name": "Hunt",
         "gender": "Male",
-        "date_of_birth": "11-11-2003",
+        "date_of_birth": "1970-01-26",
         "marital_status": "Married",
         "dependents": "0",
         "current_unit_no": "12",
