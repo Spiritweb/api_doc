@@ -14,6 +14,14 @@
     API Token should be pass on Header
     as `Bearer` Token
 
+*  **Conten Type**
+    
+    Content Type must be JSON on Header
+    as 
+    ```
+    Accept: 'application/json'
+    Content-Type: 'application/json'
+    ```
 
 * **Data Params**
 
