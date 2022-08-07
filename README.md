@@ -36,7 +36,7 @@
           "gender": "Male",
           "date_of_birth": "1970-01-26",
         },
-        "addresses": {
+        "address": {
           "unit_no": "12",
           "street_no": "4",
           "street_name": "Huntsman",
