@@ -34,7 +34,7 @@
           "email": "mahfuz@testtlc.com",
           "mobile": "0467676756",
           "gender": "Male",
-          "date_of_birth": "1970-01-26",
+          "date_of_birth": "1970-01-26"
         },
         "address": {
           "unit_no": "12",
@@ -46,12 +46,12 @@
           "postcode": "2011",
           "is_current": true,
           "years_at_address": "30",
-          "months_at_address": "12",
+          "months_at_address": "12"
         }
         "identity": {
           "driving_licence": "DRV2345235",
           "driving_licence_expiry": "2022-12-31",
-          "driving_licence_state": "NSW",
+          "driving_licence_state": "NSW"
         },
         "purpose": "Vehicle",
         "amount": 15000,
@@ -60,7 +60,13 @@
         "dependents": "0",
         "annual_income": "111111",
         "employment_status": "Full-Time",
-        "living_status": "Living with Parents"
+        "living_status": "Living with Parents",
+        "agreement": {
+          "privacy_disclosure": true,
+          "credit_guide_quote: true,
+          "electronic_communication" true,
+          "credit_report": true
+        }
     }
   ```
   
