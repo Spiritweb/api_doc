@@ -3,7 +3,7 @@
 
 * **URL / API Endpoint**
 
-  `https://admin.tlc.com.au/api/create_app`
+  `https://dev.tlc.com.au/api/v1/application/submit`
 
 * **Method:**
 
@@ -27,27 +27,38 @@
 
   ```json
     {
+        "customer": {
+          "first_name": "Matthew",
+          "middle_name": "Love",
+          "last_name": "Hunt",
+          "email": "mahfuz@testtlc.com",
+          "mobile": "0467676756",
+          "gender": "Male",
+          "date_of_birth": "1970-01-26",
+        },
+        "addresses": {
+          "unit_no": "12",
+          "street_no": "4",
+          "street_name": "Huntsman",
+          "street_type": "CTR",
+          "city": "Pyromont",
+          "state": "NSW",
+          "postcode": "2011",
+          "is_current": true,
+          "years_at_address": "30",
+          "months_at_address": "12",
+        }
+        "identity": {
+          "driving_licence": "DRV2345235",
+          "driving_licence_expiry": "2022-12-31",
+          "driving_licence_state": "NSW",
+        },
         "purpose": "Vehicle",
         "amount": 15000,
-        "email": "mahfuz@testtlc.com",
-        "mobile": "0467676756",
-        "title": "Mr",
-        "first_name": "Matthew",
-        "last_name": "Hunt",
-        "gender": "Male",
-        "date_of_birth": "1970-01-26",
+        "loan_term": 60,
         "marital_status": "Married",
         "dependents": "0",
-        "current_unit_no": "12",
-        "current_street_no": "4",
-        "current_street_name": "Huntsman",
-        "current_street_type": "CTR",
-        "current_city": "Pyromont",
-        "current_state": "NSW",
-        "current_postcode": "2011",
-        "time_at_current_year": "30",
-        "time_at_current_months": "12",
-        "yearly_income": "111111",
+        "annual_income": "111111",
         "employment_status": "Full-Time",
         "living_status": "Living with Parents"
     }
@@ -107,6 +118,8 @@
     * `Pool or Spa`
     * `Renovations`
     * `Solar Systems`
+    * `Sports Equipment`,
+    * `Sports Activity`,
     * `Vascular Surgery`
     * `Vehicle`
     * `Watch`
